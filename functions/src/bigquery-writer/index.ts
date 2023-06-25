@@ -10,9 +10,7 @@ export class BigQueryWriter {
     const dataset = bigquery.dataset(this.datasetName);
     const table = dataset.table(this.tableName);
     const rows = data.map((item) => {
-      const month = new Date(item.timestamp).getMonth() + 1;
       return {
-        month: month,
         timestamp: Date.now(),
         date_time: new Date().toISOString(),
         user_name: item.userName,

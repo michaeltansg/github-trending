@@ -1,11 +1,5 @@
 [
   {
-    "name": "month",
-    "type": "INTEGER",
-    "mode": "NULLABLE",
-    "description": "Month (use for partition)"
-  },
-  {
     "name": "timestamp",
     "type": "INTEGER",
     "mode": "NULLABLE",
