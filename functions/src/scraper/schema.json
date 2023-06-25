@@ -1,0 +1,62 @@
+[
+  {
+    "name": "month",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "Month (use for partition)"
+  },
+  {
+    "name": "timestamp",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "Epoch time"
+  },
+  {
+    "name": "date_time",
+    "type": "TIMESTAMP",
+    "mode": "NULLABLE",
+    "description": "Date and time"
+  },
+  {
+    "name": "user_name",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Username"
+  },
+  {
+    "name": "repository_name",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Repository name"
+  },
+  {
+    "name": "url",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Repository URL"
+  },
+  {
+    "name": "description",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Description of repository"
+  },
+  {
+    "name": "language",
+    "type": "STRING",
+    "mode": "NULLABLE",
+    "description": "Programming language"
+  },
+  {
+    "name": "stars_today",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "Stars today"
+  },
+  {
+    "name": "stars_total",
+    "type": "INTEGER",
+    "mode": "NULLABLE",
+    "description": "Stars (Total)"
+  }
+]
